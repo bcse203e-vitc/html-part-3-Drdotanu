@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Event </title>
+</head>
+<body>
+    <h1>Online Event Registration Form</h1>
+    <form action="action.php">
+
+        <label for="name">
+            Name:<input type = "text" id = "name" name = "name" placeholder = "Enter your name">
+        </label>
+        <br>
+        <label for="email">
+            Email:<input type = "email" id = "email" name = "email" placeholder ="Enter your email" required>
+        </label>
+        <br>
+        <label for = "phone">
+            Phone:<input type = "tel" id = "phone" name = "phone" placeholder = "Enter your phone number">
+        </label>
+        <br>
+        <label for = "gender">
+            <input type = "radio" id = "male" name = "gender" value = "male">Male
+            <input type = "radio" id = "female" name = "gender" value ="female">female
+        </label>
+        <br>
+        <select name = "age" id = "101">
+            <option value="" disabled selected>Select your age group</option>
+            <option value = "18-25">18-25</option>
+            <option value = "26-35">26-35</option>
+            <option value = "36-45">36-45</option>
+            <option value = "46-55">46-55</option>
+            <option value = "56-65">56-65</option>           
+        </select>
+        <br>
+        <label for = "Topics of Intrest">
+            <input type = "checkbox" id = "python" name = "python">python
+            <input type = "checkbox" id = "java" name = "java">java
+            <input type = "checkbox" id = "AI" name ="AI">AI
+        </label>
+    </form>
+</body>
+</html>
